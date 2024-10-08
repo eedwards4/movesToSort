@@ -10,13 +10,13 @@ A project to compare the BFS, A*, and IDS sorting algorithms, outputting the fol
 <h3>To Build</h3>
 
 ****
-cmake:
-```
-cmake -build <target dir> --target movesToSort -j 14
-```
-g++
+Windows:
 ```
 g++ -o movesToSort.exe movesToSort.cpp
+```
+Linux/MacOS
+```
+g++ -o movesToSort.out movesToSort.cpp
 ```
 
 <h3>To Run</h3>
